@@ -42,6 +42,18 @@ uv run brain-gcd
 
 [![Демонстрация brain-gcd](https://asciinema.org/a/SFlBNUgQgY5X5a5F.svg)](https://asciinema.org/a/SFlBNUgQgY5X5a5F)
 
+### Арифметическая прогрессия (brain-progression)
+
+Найдите число, скрытое за двумя точками в прогрессии. Для победы нужно правильно ответить три раза подряд.
+
+```bash
+uv run brain-progression
+```
+
+Запуск игры, победа и поражение:
+
+[![Демонстрация brain-progression](https://asciinema.org/a/0DF95odETYuVaF3Z.svg)](https://asciinema.org/a/0DF95odETYuVaF3Z)
+
 ---
 
 <details>
