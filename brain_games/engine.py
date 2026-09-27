@@ -1,6 +1,5 @@
 import prompt
 
-
 ROUNDS_COUNT = 3
 
 
@@ -27,6 +26,7 @@ def run_game(description, generate_round):
         print('Correct!')
 
     print(f'Congratulations, {name}!')
+
 
 def get_user_name():
     name = prompt.string('May I have your name? ')

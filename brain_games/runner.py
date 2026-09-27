@@ -1,9 +1,10 @@
 from brain_games.engine import run_game
-from brain_games.games import brain_calc, brain_even
+from brain_games.games import brain_calc, brain_even, brain_gcd
 
 GAMES = {
     'brain_even': brain_even,
     'brain_calc': brain_calc,
+    'brain_gcd': brain_gcd,
 }
 
 

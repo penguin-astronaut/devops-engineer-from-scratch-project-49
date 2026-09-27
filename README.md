@@ -30,6 +30,18 @@ cd devops-engineer-from-scratch-project-49
 
 [![Демонстрация brain-calc](https://asciinema.org/a/jwT7rAFAWFfEIpFg.svg)](https://asciinema.org/a/jwT7rAFAWFfEIpFg)
 
+### Наибольший общий делитель (brain-gcd)
+
+Найдите НОД двух чисел. Для победы нужно правильно ответить три раза подряд.
+
+```bash
+uv run brain-gcd
+```
+
+Запуск игры, победа и поражение:
+
+[![Демонстрация brain-gcd](https://asciinema.org/a/SFlBNUgQgY5X5a5F.svg)](https://asciinema.org/a/SFlBNUgQgY5X5a5F)
+
 ---
 
 <details>
