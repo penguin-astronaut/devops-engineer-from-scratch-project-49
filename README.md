@@ -54,6 +54,18 @@ uv run brain-progression
 
 [![Демонстрация brain-progression](https://asciinema.org/a/0DF95odETYuVaF3Z.svg)](https://asciinema.org/a/0DF95odETYuVaF3Z)
 
+### Простое ли число? (brain-prime)
+
+Ответьте `yes`, если число простое, и `no`, если нет. Для победы нужно правильно ответить три раза подряд.
+
+```bash
+uv run brain-prime
+```
+
+Запуск игры, победа и поражение:
+
+[![Демонстрация brain-prime](https://asciinema.org/a/Ua5AjlPBXaDpnFzq.svg)](https://asciinema.org/a/Ua5AjlPBXaDpnFzq)
+
 ---
 
 <details>
