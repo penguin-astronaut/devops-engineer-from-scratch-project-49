@@ -22,7 +22,13 @@ cd devops-engineer-from-scratch-project-49
 
 ## Использование
 
+### Проверка на чётность (brain-even)
+
 [![Демонстрация brain-even](https://asciinema.org/a/HmucaRWhKxxARmXG.svg)](https://asciinema.org/a/HmucaRWhKxxARmXG)
+
+### Калькулятор (brain-calc)
+
+[![Демонстрация brain-calc](https://asciinema.org/a/jwT7rAFAWFfEIpFg.svg)](https://asciinema.org/a/jwT7rAFAWFfEIpFg)
 
 ---
 
