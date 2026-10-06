@@ -2,31 +2,51 @@
 
 [![hexlet-check](https://github.com/penguin-astronaut/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/penguin-astronaut/devops-engineer-from-scratch-project-49/actions)
 
-Погрузитесь в экосистему Python и научитесь настраивать рабочее окружение. Подружитесь с менеджером зависимостей и линтером. Поймете, чем git отличается от GitHub, поработаете с внешними репозиториями. Получите опыт построения архитектуры полноценного приложения и написания чистого кода.
+Пять математических игр для терминала: проверка чётности, калькулятор, НОД, арифметическая прогрессия и проверка простоты числа. Введите имя и отвечайте на вопросы. Три правильных ответа подряд приносят победу; первая ошибка завершает игру и показывает правильный ответ.
 
-Учебный проект Хекслета: https://ru.hexlet.io/programs/devops-engineer-from-scratch
-Как это должно работать: https://asciinema.org/a/l40Lrk3midkLmNEOmgZErGnY7
+## Требования
 
-## Стек
-
-- Python
+- Python 3.13 или новее
+- Менеджер пакетов uv
+- Make для команд сборки и установки
 
 ## Установка
-
-<!-- Опишите установку: клонирование, зависимости, переменные окружения -->
 
 ```bash
 git clone https://github.com/penguin-astronaut/devops-engineer-from-scratch-project-49.git
 cd devops-engineer-from-scratch-project-49
+uv sync
+make build
+make package-install
 ```
+
+После установки команды игр доступны напрямую, например `brain-even`. Если команда не найдена, выполните `uv tool update-shell` и перезапустите терминал. Для обновления ранее установленного пакета выполните `uv tool install --force dist/*.whl`.
+
+Запись установки зависимостей, сборки и установки пакета:
+
+[![Установка игр разума](https://asciinema.org/a/Agu0dJXjB5xoyxTm.svg)](https://asciinema.org/a/Agu0dJXjB5xoyxTm)
 
 ## Использование
 
+Из каталога проекта игры также можно запускать через `uv run`, как показано ниже.
+
 ### Проверка на чётность (brain-even)
+
+Ответьте `yes`, если число чётное, и `no`, если нечётное.
+
+```bash
+uv run brain-even
+```
 
 [![Демонстрация brain-even](https://asciinema.org/a/HmucaRWhKxxARmXG.svg)](https://asciinema.org/a/HmucaRWhKxxARmXG)
 
 ### Калькулятор (brain-calc)
+
+Вычислите результат сложения, вычитания или умножения двух чисел и введите целое число.
+
+```bash
+uv run brain-calc
+```
 
 [![Демонстрация brain-calc](https://asciinema.org/a/jwT7rAFAWFfEIpFg.svg)](https://asciinema.org/a/jwT7rAFAWFfEIpFg)
 

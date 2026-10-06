@@ -1,7 +1,8 @@
 [project]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Add your description here"
+description = "Five command-line math games: even, calc, gcd, progression and prime."
+authors = [{ name = "Vadim Kasatkin" }]
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [

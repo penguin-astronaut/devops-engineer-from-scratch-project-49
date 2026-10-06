@@ -1,8 +1,9 @@
-from brain_games.runner import launch_game
+from brain_games.engine import run_game
+from brain_games.games import brain_prime
 
 
 def main():
-    launch_game('brain_prime')
+    run_game(brain_prime)
 
 
 if __name__ == '__main__':

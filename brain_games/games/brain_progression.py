@@ -1,7 +1,11 @@
 from random import randint
 
 DESCRIPTION = 'What number is missing in the progression?'
+MIN_NUMBER = 1
+MAX_NUMBER = 100
 PROGRESSION_LENGTH = 10
+MIN_STEP = 1
+MAX_STEP = 10
 
 
 def generate_progression(start, step, length):
@@ -9,8 +13,8 @@ def generate_progression(start, step, length):
 
 
 def generate_round():
-    start = randint(1, 100)
-    step = randint(1, 10)
+    start = randint(MIN_NUMBER, MAX_NUMBER)
+    step = randint(MIN_STEP, MAX_STEP)
     progression = generate_progression(start, step, PROGRESSION_LENGTH)
     hidden_index = randint(0, PROGRESSION_LENGTH - 1)
     correct_answer = str(progression[hidden_index])
